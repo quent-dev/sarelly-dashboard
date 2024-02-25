@@ -2,7 +2,12 @@ Using Hackathon Starter boilerplate
 =======================
 
 
-A boilerplate for **Node.js** web applications.
+Starting from the [Hackathon Starter](https://github.com/sahat/hackathon-starter) boilerplate for **Node.js** web applications.
+
+The goal of this project is to create a dashboard for our eCommerce company where will use APIs from various sources to get a 360 view of our operations:
+- Shopify
+- Shiphero
+- Others to be added as we go
 
 
 Table of Contents
