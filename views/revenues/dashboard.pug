@@ -1,4 +1,4 @@
-extends ./../layout.pug
+extends ./../layout.pug  
 
 block content
   h1 Sarelly Revenues Dashboard
@@ -9,3 +9,7 @@ block content
       p Explore Revenues and traffic data for Sarelly Sarelly
       p
         a.btn.btn-primary(href='#', role='button') View details »
+      ul 
+        each order in data ? data : [] 
+          li #{order.node.createdAt}
+        
